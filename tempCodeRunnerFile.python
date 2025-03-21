@@ -1,0 +1,2 @@
+import rev_ai
+print(dir(rev_ai))
