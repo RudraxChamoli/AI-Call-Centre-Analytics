@@ -14,7 +14,7 @@
 # #         super().__init__()
 # #         self.setWindowTitle('Customer Call Analysis')
 # #         self.initUI()
-# #         self.rev_client = apiclient.RevAiAPIClient("02ADaw_XB8FloTQqeZ2Ru-Nw_21iGnD4SodfWnnITyvaOEtm4898pge9HeYfx8dxbHpU18x9esqMb00aNFKsLVFPyWffA")  # Replace with your Rev AI API Key
+# #         self.rev_client = apiclient.RevAiAPIClient("")  # Replace with your Rev AI API Key
 # #         self.sentiment_analyzer = SentimentIntensityAnalyzer()
 
 # #     def initUI(self):
@@ -160,7 +160,7 @@
 #         self.initUI()
 
 #         # Initialize Rev AI client
-#         self.rev_client = apiclient.RevAiAPIClient("02jwzVyea_5X7mXLFPfgk6vLNrG7BtbybXDYC8PlDUcxUodUOmtZX_18LhxYX1Q9oL56RaevOL201aeKhtNnVQjYqAI00")  # Replace with your Rev AI API Key
+#         self.rev_client = apiclient.RevAiAPIClient("")  # Replace with your Rev AI API Key
 
 #         # Initialize Sentiment Analyzer
 #         self.sentiment_analyzer = SentimentIntensityAnalyzer()
@@ -308,7 +308,7 @@
     #     self.initUI()
 
     #     # Initialize Rev AI client
-    #     self.rev_client = apiclient.RevAiAPIClient("02jwzVyea_5X7mXLFPfgk6vLNrG7BtbybXDYC8PlDUcxUodUOmtZX_18LhxYX1Q9oL56RaevOL201aeKhtNnVQjYqAI00")  # Replace with your Rev AI API Key
+    #     self.rev_client = apiclient.RevAiAPIClient("")  # Replace with your Rev AI API Key
 
     #     # Initialize Hugging Face Sentiment Analysis Pipeline
     #     self.sentiment_pipeline = pipeline("sentiment-analysis")  # Uses a default sentiment analysis model
@@ -357,7 +357,7 @@
 
 #         # Initialize Rev AI client
 #         self.rev_client = apiclient.RevAiAPIClient(
-#             "02jwzVyea_5X7mXLFPfgk6vLNrG7BtbybXDYC8PlDUcxUodUOmtZX_18LhxYX1Q9oL56RaevOL201aeKhtNnVQjYqAI00"
+#             ""
 #         )  # Replace with your Rev AI API Key
 
 #         # Initialize Hugging Face Sentiment Analysis Pipeline
@@ -552,7 +552,7 @@ class MyApp(QWidget):
 
 
         self.rev_client = apiclient.RevAiAPIClient(
-            "02jwzVyea_5X7mXLFPfgk6vLNrG7BtbybXDYC8PlDUcxUodUOmtZX_18LhxYX1Q9oL56RaevOL201aeKhtNnVQjYqAI00"
+            ""
         )
 
         self.sentiment_pipeline = pipeline("sentiment-analysis") 
